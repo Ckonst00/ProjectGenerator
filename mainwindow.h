@@ -19,5 +19,8 @@ public:
 
 private:
     Ui::MainWindow *ui;
+    void mainForm();
+    void generateProject();
+    void createMenus();
 };
 #endif // MAINWINDOW_H
